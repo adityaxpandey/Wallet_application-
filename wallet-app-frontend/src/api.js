@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://wallet-application-backend.onrender.com',
 });
 
 // Add token to request headers if available
